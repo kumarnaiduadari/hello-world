@@ -22,6 +22,6 @@ void main()
 for(n=0;n<5;n++)
     printf("%d ",a[n]);
     printf("\n");
-
+    getch();
 }
  
