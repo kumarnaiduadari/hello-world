@@ -11,7 +11,7 @@ void main()
                        if(max<=a[k])
                            {
                                 max=a[k];
-                                swap=a[j];
+                                swap=a[j]; //swap
                                 a[j]=a[k];
                                 a[k]=swap;
                           }
