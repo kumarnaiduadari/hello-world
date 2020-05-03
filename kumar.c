@@ -7,7 +7,7 @@ void main()
             for(j=4;j>=0;j--)
               {
                    max=a[0];
-                   for(k=0;k<=j;k++)
+                   for(k=0;k<=j;k++)  //for loop
                        if(max<=a[k])
                            {
                                 max=a[k];
