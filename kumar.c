@@ -24,4 +24,37 @@ for(n=0;n<5;n++)
     printf("\n");
     getch();
 }
+
+//code for swapping of strings//
+#include<stdio.h>
+#include<string.h>
+void main()
+        {
+
+             char a[5][20]={"Kumar Naidu","Ram Gopal","Vamsi Marri","Ramu","Sheshu"};
+             int i,j,k;
+             char temp[20];
+             printf("The list before sorting>>>\n");
+             for(k=0;k<5;k++)
+             printf("%s\n",a[k]);
+             //getch();
+              for(i=0;i<4;i++)
+                  for(j=i+1;i<5;i++)
+                         {
+                             if(strcmpi(a[i],a[j])>0)
+                             {
+                                 strcpy(temp,a[i]);
+                                 strcpy(a[i],a[j]);
+                                 strcpy(a[j],temp);
+
+                             }
+
+
+                         }
+                         printf("\n\n");
+                         for(k=0;k<5;k++)
+             printf("%s\n",a[k]);
+
+        }
+
  
