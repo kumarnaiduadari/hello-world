@@ -57,4 +57,19 @@ void main()
 
         }
 
+//to add the sum of numbers in a number
+#include<stdio.h>
+void main()
+{
+    int num,i,j;
+    printf("Enter a number");
+    scanf("%d",&num);
+    while(num>0)
+    {
+        i=num%10;
+        j=j+i;
+        num=num/10;
+    }
+    printf("%d",j);
+}
  
