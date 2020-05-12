@@ -72,4 +72,25 @@ void main()
     }
     printf("%d",j);
 }
+// code to check whether the given numbetr is a palindrome or not
+#include<stdio.h>
+void main()
+{
+    int num,i,j=0,temp;
+    printf("Enter a number");
+    scanf("%d",&num);
+    temp=num;
+    while(num>0)
+    {
+        i=num%10;
+        j=(j*10)+i;
+        num/=10;
+    }
+    if(temp==j)
+        printf("The given number %d is a palindrome",j);
+    else
+        printf("%d It's not a palindrome",j);
+
+}
+
  
