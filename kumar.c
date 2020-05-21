@@ -92,5 +92,24 @@ void main()
         printf("%d It's not a palindrome",j);
 
 }
+// switch programme
+#include<stdio.h>
+void main()
+    {
+       int marks =95;
+       switch(marks)
+         {
+              case 95:
+              printf("good ");
+              break;
+              case 85:
+              printf("normal");
+              break;
+              default :
+              printf("no grade");
+
+        }
+    }
+
 
  
