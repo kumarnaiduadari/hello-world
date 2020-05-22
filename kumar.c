@@ -110,6 +110,26 @@ void main()
 
         }
     }
+//code of 2d array read and print
 
+#include<stdio.h>
+#include<stdlib.h>
+void main()
+{
+    int a[3][3],i,j,k,l;
+    printf("Enter the value for the arrays........\n");
+    for(i=0;i<3;i++)
+        for(j=0;j<3;j++)
+            {
+                printf("Enter the elememnt in the %d row and %d coiumon   ......",i+1,j+1);
+                scanf("%d",&a[i][j]);
+            }
+                for(k=0;k<3;k++)
+                       {
+                           for(l=0;l<3;l++)
+                               printf("%d \t",a[k][l]);
+                               printf("\n");
+                       }
+}
 
  
